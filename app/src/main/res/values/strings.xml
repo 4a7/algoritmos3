@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Organizador de Imagenes</string>
+    <string name="action_settings">Settings</string>
+    <string name="inicio_lbp">Local Binary Patterns</string>
+    <string name="inicio_lsh">Local Sensitive Hashing</string>
+    <string name="first">1</string>
+</resources>
+
