@@ -23,12 +23,14 @@ public class ImageGallery extends AppCompatActivity {
         ImageAdapter ima=new ImageAdapter(this);
         ima .setImagenes(hi.getPaths());
         final ImageAdapter ima2=ima;
+        gridview.setAdapter(ima2);
+        /*
         new Thread(new Runnable() {
             public void run() {
                 gridview.setAdapter(ima2);
             }
         }).start();
-
+        */
 
         /*
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {

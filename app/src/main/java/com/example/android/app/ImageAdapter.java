@@ -26,7 +26,7 @@ public class ImageAdapter extends BaseAdapter {
     private Context mContext;
     private ArrayList<String> imagenes;
     private Bitmap bitMapObj;
-    final int THUMBSIZE = 100;
+    final int THUMBSIZE = 200;
     public ImageAdapter(Context c) {
         mContext = c;
     }
@@ -52,7 +52,7 @@ public class ImageAdapter extends BaseAdapter {
         if (convertView == null) {
             // if it's not recycled, initialize some attributes
             imageView = new ImageButton(mContext);
-            imageView.setLayoutParams(new GridView.LayoutParams(200,200));
+            imageView.setLayoutParams(new GridView.LayoutParams(800,600));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(1, 1, 1, 1);
         } else {
